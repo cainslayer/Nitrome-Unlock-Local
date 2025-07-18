@@ -8,6 +8,8 @@ This is a tool to run Nitrome **flash** games **LOCALLY**.
 
 I tried to use least external libraries.
 
+简单来说就是让一部分Nitrome的游戏可以在本地运行。具体原理贴吧里有，可以搜一下下面的那个ID。
+
 ## Preparation
 
 #### Fundamental preparation
@@ -16,7 +18,9 @@ I tried to use least external libraries.
 
 * Download the official flash player, whose name can be 'flashplayer_sa.exe'
 
-* Download .swf from www.nitrome.com , keep the origin file name, put into download/
+* Download .swf from www.nitrome.com , keep the origin file name, put into `download/`
+  
+  下载的游戏文件名不改，直接放到`download/`目录。
 
 #### Configuration
 
@@ -29,6 +33,8 @@ Edit file `config.py`:
   `127.0.0.1 www.nitrome.com`
 
 #### Play games
+
+<img title="" src="shot.png" alt="shot.png" width="173">
 
 * Double click on `gui.py`, wait to download json file from `CPKaq/nitrome-game-launcher`
 
